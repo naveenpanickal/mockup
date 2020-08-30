@@ -1,0 +1,23 @@
+header{
+  display: flex;
+  max-width: 83%;
+  height: 317px;
+  font-family: Poppins;
+  background-color: #F9F5F3;
+  .left{
+    flex: 1;
+    h1{
+
+      font-style: normal;
+      font-weight: bold;
+      font-size: 70px;
+      line-height: 105px;
+
+      color: rgba(0, 0, 0, 0.81);
+
+    }
+  }
+  .right{
+    flex: 1;
+  }
+}
