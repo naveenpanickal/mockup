@@ -4,7 +4,7 @@ header{
   height: 188px;
   font-family: Poppins;
   border-radius: 31px 31px 0px 0px;
-  background: #F3EAEA;
+  background: #FAEDED;
 
   .left{
     flex: 5;
@@ -12,15 +12,33 @@ header{
       font-family: Poppins;
       font-style: normal;
       font-weight: bold;
-      font-size: 45px;
-      padding-top: 16px;
+      font-size: 50px;
+      padding-top: 38px;
       padding-left: 41px;
-
       color: rgba(0, 0, 0, 0.81);
-
+    }
+    .address{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      padding-left: 43px;
+      padding-top:20px;
     }
   }
   .right{
     flex: 4;
+    padding-top: 35px;
+    mat-chip{
+      padding-left: 10px;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+    }
+  }
+  app-review-ratings{
+    position: relative;
+    left: 32px;
   }
 }
+

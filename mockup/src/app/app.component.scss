@@ -2,14 +2,16 @@
 .container {
 //  height: 1080px;
 //  width: 1920px;
+margin: 0;
   padding-top: 241px;
+  padding-bottom: 241px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0;
   background: linear-gradient(to right bottom, #FBDB89, #F48982);
-  background-size: cover;
+  background-size: 1920px 1080px;
   background-repeat: no-repeat;
   // min-height: calc(100vh - 2 * 4vw);
 }

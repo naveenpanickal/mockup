@@ -3,21 +3,11 @@
   flex-direction: row;
 }
 :host {
-  --star-size: 37px;
+  --star-size: 35px;
   --star-color: #fff;
   --star-background: #fc0;
 }
 
-p{
-  padding-right: 2%;
-  margin: 0;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 35px;
-
-color: rgba(0, 0, 0, 0.81);
-}
 
 .stars {
   --percent: calc(var(--rating) / 5 * 100%);
@@ -41,4 +31,19 @@ color: rgba(0, 0, 0, 0.81);
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
+  position: relative;
+  top: 10px;
+  padding-left: 15px;
+}
+.averageRating{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.81);
+
+  padding-right: 8px;
+  padding-left: 10px;
+  position: relative;
+  top: 9px;
 }
