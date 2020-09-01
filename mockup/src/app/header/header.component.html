@@ -1,12 +1,12 @@
 <header>
-  <div class = 'left'>
-<h1>{{restaurantName}}</h1>
-<app-review-ratings></app-review-ratings>
-<p class="address">{{restaurantAddress}}</p>
-</div>
-<div class="right">
-  <mat-chip-list >
-    <mat-chip color="accent" selected *ngFor="let category of categories">{{category}}</mat-chip>
-  </mat-chip-list>
-</div>
+  <div class='left'>
+    <h1>{{restaurantName}}</h1>
+    <app-review-ratings></app-review-ratings>
+    <p class="address">{{restaurantAddress}}</p>
+  </div>
+  <div class="right">
+    <mat-chip-list>
+      <mat-chip color="accent" selected *ngFor="let category of categories">{{category}}</mat-chip>
+    </mat-chip-list>
+  </div>
 </header>

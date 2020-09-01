@@ -1,14 +1,14 @@
-.body{
+.body {
   display: flex;
   width: 1143px;
   height: 370px;
   border-radius: 0 0 30px 30px;
   overflow: hidden;
-  figure{
+  figure {
     padding: 0;
     margin: 0;
   }
-  img{
+  img {
     max-width: 520px;
     height: 374px;
     object-fit: fill;
@@ -16,9 +16,9 @@
     margin: 0;
     overflow: hidden;
   }
-  section{
+  section {
     width: 623px;
-  height: 374px;
+    height: 374px;
     background-color: #ebebeb;
   }
 }

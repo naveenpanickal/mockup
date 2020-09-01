@@ -1,44 +1,47 @@
 :host {
   --star-size: 15px;
-  --star-color: #C4C4C4;
+  --star-color: #c4c4c4;
   --star-background: #fc0;
 }
 
-section{
+section {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ffff;
 }
-.bubbles{
+.bubbles {
   --percent: calc(var(--rating) / 5 * 100%);
   display: inline-block;
   font-size: var(--star-size);
-  font-weight:700;
+  font-weight: 700;
   line-height: 1;
 
   &::before {
-    content: '⬤ ⬤ ⬤ ⬤ ⬤';
+    content: "⬤ ⬤ ⬤ ⬤ ⬤";
     letter-spacing: 3px;
-    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    background: linear-gradient(
+      90deg,
+      var(--star-background) var(--percent),
+      var(--star-color) var(--percent)
+    );
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
   }
-
 }
-section{
-  padding:60px;
+section {
+  padding: 60px;
   width: 623px;
   height: 327px;
 }
 
-table{
+table {
   position: relative;
   right: 30px;
-  bottom : 35px;
+  bottom: 35px;
 
-  th{
+  th {
     position: relative;
     right: 65px;
     padding-left: 0;
@@ -47,27 +50,24 @@ table{
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    color:#545454;
-
+    color: #545454;
   }
-  td{
+  td {
     padding: 8px 0;
   }
-  .column{
+  .column {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
     padding-right: 120px;
     color: rgba(0, 0, 0, 0.81);
-
   }
-  img{
+  img {
     height: 20px;
     width: 20px;
     padding: 0;
     position: relative;
     top: 3px;
-
   }
 }

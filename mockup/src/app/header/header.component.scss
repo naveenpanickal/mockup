@@ -1,14 +1,14 @@
-header{
+header {
   display: flex;
   width: 1143px;
   height: 188px;
   font-family: Poppins;
   border-radius: 31px 31px 0px 0px;
-  background: #FAEDED;
+  background: #faeded;
 
-  .left{
+  .left {
     flex: 5;
-    h1{
+    h1 {
       font-family: Poppins;
       font-style: normal;
       font-weight: bold;
@@ -17,28 +17,27 @@ header{
       padding-left: 41px;
       color: rgba(0, 0, 0, 0.81);
     }
-    .address{
+    .address {
       font-family: Poppins;
       font-style: normal;
       font-weight: normal;
       font-size: 17px;
       padding-left: 43px;
-      padding-top:20px;
+      padding-top: 20px;
     }
   }
-  .right{
+  .right {
     flex: 4;
     padding-top: 35px;
-    mat-chip{
+    mat-chip {
       padding-left: 10px;
       font-family: Open Sans;
       font-style: normal;
       font-weight: bold;
     }
   }
-  app-review-ratings{
+  app-review-ratings {
     position: relative;
     left: 32px;
   }
 }
-

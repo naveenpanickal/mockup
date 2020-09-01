@@ -1,13 +1,12 @@
-.ratings{
+.ratings {
   display: flex;
   flex-direction: row;
 }
 :host {
   --star-size: 35px;
-  --star-color: #C4C4C4;
+  --star-color: #c4c4c4;
   --star-background: #fc0;
 }
-
 
 .stars {
   --percent: calc(var(--rating) / 5 * 100%);
@@ -17,16 +16,19 @@
   line-height: 1;
 
   &::before {
-    content: '★★★★★';
+    content: "★★★★★";
     letter-spacing: 3px;
-    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    background: linear-gradient(
+      90deg,
+      var(--star-background) var(--percent),
+      var(--star-color) var(--percent)
+    );
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
   }
-
 }
-.total{
+.total {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -35,7 +37,7 @@
   top: 10px;
   padding-left: 15px;
 }
-.averageRating{
+.averageRating {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
