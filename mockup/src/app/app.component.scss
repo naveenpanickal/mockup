@@ -1,12 +1,14 @@
 
 .container {
-  // font-family: 'Nunito Sans', sans-serif;
-  // font-weight: 400;
-  // line-height: 1.6;
-  // color: #655A56;
-  // height: 1080px;
-  // width: 100vh;;
-  background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+//  height: 1080px;
+//  width: 1920px;
+  padding-top: 241px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: linear-gradient(to right bottom, #FBDB89, #F48982);
   background-size: cover;
   background-repeat: no-repeat;
   // min-height: calc(100vh - 2 * 4vw);

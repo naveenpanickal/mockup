@@ -1,18 +1,19 @@
 .body{
-  display: flex;;
+  display: flex;
   height: 571px;
-  max-width: 83%;
+  max-width: 1143px;
   border-radius: 0 0 30px 30px;
   figure{
-    width: 746px;
-    height: 100%;
+    max-width: 520px;
+    max-height: 374px;
+    object-fit: fill;
     padding: 0;
     margin: 0;
     overflow: hidden;
   }
   section{
-    width: 831px;
-    height: 100%;
+    width: 623px;
+  height: 374px;
     background-color: #ebebeb;
   }
 }

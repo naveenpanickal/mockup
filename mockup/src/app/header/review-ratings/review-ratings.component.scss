@@ -1,37 +1,44 @@
-:root {
-  --star-size: 60px;
+.ratings{
+  display: flex;
+  flex-direction: row;
+}
+:host {
+  --star-size: 37px;
   --star-color: #fff;
   --star-background: #fc0;
 }
 
-.Stars {
-  --percent: calc(var(--rating) / 5 * 100%);
+p{
+  padding-right: 2%;
+  margin: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
 
+color: rgba(0, 0, 0, 0.81);
+}
+
+.stars {
+  --percent: calc(var(--rating) / 5 * 100%);
   display: inline-block;
   font-size: var(--star-size);
-  font-family: 'Font Awesome 5 Free'; // make sure ★ appears correctly
   font-weight: 900;
   line-height: 1;
 
   &::before {
-    content: '\f005 \f005 \f005 \f005';
+    content: '★★★★★';
     letter-spacing: 3px;
     background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
   }
+
 }
-
-// Just to make a preview more beautifull
-
-body {
-  background: #eee;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-* {
-  position: relative;
-  box-sizing: border-box;
+.total{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
 }

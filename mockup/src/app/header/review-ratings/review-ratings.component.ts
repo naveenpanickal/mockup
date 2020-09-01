@@ -12,8 +12,7 @@ export class ReviewRatingsComponent implements OnInit {
   finalRating: number;
   weightedRatingSum = 0;
   totalVotes = data.review_rating.total;
-  starPercentage = 0;
-  starPercRounded = '';
+  finalRatingRounded = 0;
   constructor() { }
 
   ngOnInit() {
@@ -25,10 +24,8 @@ export class ReviewRatingsComponent implements OnInit {
       this.weightedRatingSum += this.reviewRatings[ratings].rating *this.reviewRatings[ratings].votes;
     }
       this.finalRating = this.weightedRatingSum/ this.totalVotes;
-      this.starPercentage = (this.finalRating/5)*100;
-      //Rounding
-      this.starPercRounded = `${Math.round(this.starPercentage / 10) * 10}%`;
-    console.log(this.starPercRounded);
+      this.finalRatingRounded = Math.round(this.finalRating*10)/10
+      console.log(this.finalRatingRounded);
   }
 
 }
