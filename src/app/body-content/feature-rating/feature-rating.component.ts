@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import * as data from '../../../assets/data/data.json';
-import { ReviewRatingsComponent } from 'src/app/header/review-ratings/review-ratings.component';
+
 @Component({
   selector: 'app-feature-rating',
   templateUrl: './feature-rating.component.html',
