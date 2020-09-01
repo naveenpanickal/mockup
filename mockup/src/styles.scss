@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
-@import'@fortawesome/fontawesome-free/css/all.min.css';
-body{
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap");
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+html,
+body {
+  height: 100%;
   margin: 0;
+}
+
+body {
   background: linear-gradient(to right bottom, #fbdb89, #f48982);
   background-size: cover;
   -webkit-background-size: cover;
