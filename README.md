@@ -1,4 +1,4 @@
-# Mockup
+# Food App page Mockup
 
 ### This is a mockup page for a restaurant review site.
  <br /> 
